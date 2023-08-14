@@ -5,7 +5,7 @@ $form.addEventListener("submit", (e) => {
 
   const name = document.getElementById("namepro").value;
   if (name === "") {
-    Swal.fire("ERROR", "Nama Project tidak boleh kosong!", "error");
+    Swal.fire("ERROR", "Nama Project tidak boleh kosong!", "succcess");
     return;
   }
 

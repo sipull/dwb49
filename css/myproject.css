@@ -138,6 +138,7 @@ label {
 }
 
 .submit:hover {
+  color: #ffffff;
   background-color: #ff6600;
 }
 
@@ -208,6 +209,8 @@ label {
 }
 
 .blog-tech {
+  display: flex;
+  gap: 0.5rem;
   margin: 1em 0 1em 0;
 }
 
@@ -228,7 +231,8 @@ label {
 }
 
 .editpost:hover {
-  background: #cc640e;
+  color: #ffffff;
+  background-color: #ff6600;
 }
 
 .deletepost {
@@ -243,7 +247,8 @@ label {
 }
 
 .deletepost:hover {
-  background-color: #cc640e;
+  color: #ffffff;
+  background-color: #ff6600;
 }
 
 @media only screen and (max-width: 920px) {
