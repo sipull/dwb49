@@ -111,7 +111,7 @@ function renderBlog() {
       }
     });
 
-    console.log(BlogStorage);
+    // console.log(BlogStorage);
 
     document.querySelector(".blog-list").innerHTML += `
     <div class="blog-item">
